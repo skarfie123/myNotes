@@ -1,0 +1,21 @@
+git show HEAD --- shows latest commit
+git checkout HEAD file -- changes the file to from HEAD, but not stages it
+git reset HEAD file -- stages the version of file from the HEAD commit , but not the actualy file
+reset is unstage
+reset --hard is unstage and reset files
+https://s3.amazonaws.com/codecademy-content/courses/learn-git/git-diagram-3.svg
+git reset <commit SHA like 2ba75uuhgh etc> -- resets to an old commit but loses commit history
+git revert <commit SHA> -- resets but as a new commit -- better, safer
+a - b - c 
+HEAD is the SHA for the latest commit - c
+HEAD^ is the one before - b
+HEAD~2 is 2 before - a
+
+process:
+pull
+branch
+commit
+pull
+push
+
+http://ndpsoftware.com/git-cheatsheet.html

@@ -1,0 +1,9 @@
+Rabbit MQ Best Practices
+- short queues -> lower ram, faster recovery
+- lazy queues -> predictable performance, minimises ram but slower throughput
+- dont use lazy queues if queues always short or need very high performance
+- multicore - more than one queue
+- split queues into different cores
+-- consistent hash exchange plugin
+-- rabbitmq sharding
+- autodelete unused queues
