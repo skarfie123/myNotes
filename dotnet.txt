@@ -1,0 +1,12 @@
+dotnet new sln -n "BlahSln"
+dotnet new console -n "BlahUI"
+dotnet new classlib -n "BlahLibrary"
+dotnet sln BlahSln.sln add .\BlahUI\BlahUI.csproj // add project to solution
+dotnet sln BlahSln.sln add .\BlahLibrary\BlahLibrary.csproj
+dotnet sln BlahSln.sln add **\*.csproj // can do this in bash to do both in one go
+dotnet add BlahUI\BlahUI.csproj reference BlahLibrary\BlahLibrary.csproj // add library as reference in ui, specify .csproj if not in same directory
+dotnet add package Bleh \\ adds package reference, gets latest stable version, or use nuget extension
+dotnet restore \\ restores dependencies depending on references
+dotnet run --project=BlahUI \\ need to specify if not in same folder as .csproj
+
+https://docs.microsoft.com/en-us/dotnet/
