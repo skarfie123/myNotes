@@ -5,3 +5,5 @@
 - Logcat
 - RabbitMQ
 - .NET
+- Python venv
+- Golang

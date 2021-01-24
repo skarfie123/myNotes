@@ -1,0 +1,3 @@
+python -m venv new_env
+new_env\Scripts\activate
+deactiviate
