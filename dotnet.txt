@@ -8,5 +8,7 @@ dotnet add BlahUI\BlahUI.csproj reference BlahLibrary\BlahLibrary.csproj // add 
 dotnet add package Bleh \\ adds package reference, gets latest stable version, or use nuget extension
 dotnet restore \\ restores dependencies depending on references
 dotnet run --project=BlahUI \\ need to specify if not in same folder as .csproj
+dotnet run --configuration Release
+dotnet publish --configuration Release
 
 https://docs.microsoft.com/en-us/dotnet/

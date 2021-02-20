@@ -2,3 +2,11 @@ docker login
 docker build --no-cache -t <imagename>:tag //make it on pc
 docker tag <imagename>:tag username/repository:tag // tag for hub
 docker push username/repository:tag
+
+//doodle example
+git clone https://github.com/docker/doodle.git
+cd doodle\cheers2019
+docker build -t skarfie123/cheers2019 .
+docker run -it --rm skarfie123/cheers2019
+docker login
+docker push skarfie123/cheers2019
