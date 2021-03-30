@@ -1,0 +1,8 @@
+- find audio format in a video:
+ffprobe video.mp4 | find "Audio:"
+- extract audio from video (assumes extracting to same audio format):
+ffmpeg -i input.mp4 -vn -acodec copy output.aac
+- convert audio format:
+ffmpeg -i input.aac output.wav
+- resample audio frequency (in this case 16kHz):
+ffmpeg -i input.wav -ar 16000 output.wav
