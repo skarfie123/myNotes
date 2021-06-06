@@ -8,3 +8,5 @@
 - [Python venv](venv.txt)
 - [Golang](GoNotes.go)
 - [ffmpeg](ffmpeg.md)
+- [cmd](cmd.md)
+- [7z](7z.md)
