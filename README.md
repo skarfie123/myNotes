@@ -11,3 +11,5 @@
 - [cmd](cmd.md)
 - [7z](7z.md)
 - [Python Linters](python_linters.md)
+- [PowerShell](PowershellNotes.ps1)
+- [Bash to PowerShell](bashToPowershell.md)
