@@ -10,3 +10,4 @@
 - [ffmpeg](ffmpeg.md)
 - [cmd](cmd.md)
 - [7z](7z.md)
+- [Python Linters](python_linters.md)
