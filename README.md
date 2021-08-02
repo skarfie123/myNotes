@@ -13,3 +13,4 @@
 - [Python Linters](python_linters.md)
 - [PowerShell](PowershellNotes.ps1)
 - [Bash to PowerShell](bashToPowershell.md)
+- [Python Tools](python_tools.md)
