@@ -52,6 +52,33 @@ ic.configureOutput(includeContext=True)
 
 ![icecream](https://miro.medium.com/max/700/1*ZLVC2GFBc54M3WNtOfvWoA.png)
 
+## Profiling
+
+### CPython Built-In
+
+A whole script: `python -m cProfile -o blah.prof blah.py`
+
+or just a portion of code, e.g. the `blah` function:
+
+```python
+import cProfile
+import pstats
+
+with cProfile.Profile() as pr:
+    blah()
+
+stats = pstats.Stats(pr)
+stats.sort_stats(pstats.SortKey.TIME)
+# stats.print_stats()
+stats.dump_stats(filename="blah.prof")
+```
+
+### Snakeviz
+
+`snakeviz blah.prof`
+
+![snakeviz](https://jiffyclub.github.io/snakeviz/img/icicle.png)
+
 ## Tools
 
 ### HTTP Server
