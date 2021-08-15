@@ -1,4 +1,4 @@
-# Python Tools
+# [Python](python.md) Tools
 
 ## Debugging
 

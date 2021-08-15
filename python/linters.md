@@ -1,4 +1,4 @@
-# Python Linters
+# [Python](python.md) Linters
 
 - `pycodestyle` - pep 8
 - `pydocstyle` - pep 400 sth
