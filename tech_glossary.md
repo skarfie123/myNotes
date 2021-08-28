@@ -116,6 +116,34 @@ Also a [Message Broker](#message-broker).
 
 ## S
 
+### S3
+
+(AWS)
+
+Simple Storage Service
+
+"Object storage built to store and retrieve any amount of data from anywhere"
+
+### SLA
+
+[![image from atlassian](https://wac-cdn.atlassian.com/dam/jcr:2c63228d-0dbd-4b8c-b44b-c8514c835905/slo-vs-sla-vs-sli-1.jpg?cdnVersion=1769)](https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli)
+
+Service Level Agreement
+
+the agreement you make with your clients or users
+
+### SLOs
+
+Service Level Objectives
+
+the objectives your team must hit to meat that agreement
+
+### SLIs
+
+Service Level Indicators
+
+the real numbers on your performance
+
 ### SQL
 
 Structured Query Language
