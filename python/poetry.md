@@ -18,11 +18,13 @@
 - list dependencies: `poetry show`
   - in tree view: `poetry show --tree`
 - spawn virtual environment shell: `poetry shell`
+  - need to include plugin: <https://github.com/python-poetry/poetry/≥pull/9763>
 - run a command in the environment: `poetry run <command>`
 - install dependencies: `poetry install`
 - install dependencies with dev: `poetry install --with dev`
 - update dependencies: `poetry update`
 - export the lockfile for CI: `poetry export -f requirements.txt --output requirements.txt --without-hashes`
+  - need to include plugin: <https://github.com/python-poetry/poetry/pull/5980>
 - configure PyPI: `poetry config pypi-token.pypi <my-token>`
   - <https://python-poetry.org/docs/repositories/#configuring-credentials>
 - publish: `poetry publish --build`
