@@ -20,6 +20,7 @@
 - spawn virtual environment shell: `poetry shell`
 - run a command in the environment: `poetry run <command>`
 - install dependencies: `poetry install`
+- install dependencies with dev: `poetry install --with dev`
 - update dependencies: `poetry update`
 - export the lockfile for CI: `poetry export -f requirements.txt --output requirements.txt --without-hashes`
 - configure PyPI: `poetry config pypi-token.pypi <my-token>`
